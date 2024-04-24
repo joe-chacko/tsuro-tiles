@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,visualstudiocode,vim
-# Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,visualstudiocode,vim
+# Created by https://www.toptal.com/developers/gitignore/api/vim,jupyternotebooks,visualstudiocode,virtualenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=vim,jupyternotebooks,visualstudiocode,virtualenv
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -36,6 +36,20 @@ tags
 # Persistent undo
 [._]*.un~
 
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -55,4 +69,4 @@ tags
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,visualstudiocode,vim
+# End of https://www.toptal.com/developers/gitignore/api/vim,jupyternotebooks,visualstudiocode,virtualenv
